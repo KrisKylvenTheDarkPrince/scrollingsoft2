@@ -9,43 +9,47 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 <style>
-		nav ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			background-color: #333;
-		}
-
-		nav li {
-			float: left;
-		}
-
-		nav li a {
-			display: block;
-			color: white;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-		}
-
-		nav li a:hover {
-			background-color: #111;
-		}
-
-html {
-  background-image: url('https://cdn.wallpapersafari.com/90/57/BVPWdp.gif');
-  background-repeat: no-repeat;
-  background-size: cover;
-  animation: play-once 1s linear forwards;
-}
-
-@keyframes play-once {
-  to {
-    background-image: none;
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
   }
-}
-  </style>
+
+  nav li {
+    float: left;
+  }
+
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    background-color: #111;
+  }
+
+  @keyframes play-once {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -1000px; }
+  }
+
+  html {
+    background-image: url('https://media.tenor.com/leG9YEJs3BAAAAAC/color-slowmo.gif');
+    background-repeat: repeat;
+    background-size: cover;
+    animation: play-once 1s linear forwards;
+  }
+  
+  body {
+    color: black;
+  }
+</style>
+
 </head>
 
 <body>
